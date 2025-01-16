@@ -1,5 +1,5 @@
-let share = document.getElementById("share")
-let socialsSection = document.getElementById("socials")
+const share = document.getElementById("share")
+const socialsSection = document.getElementById("socials")
 share.addEventListener("click", function(){
     socialsSection.style.display= "block"
 })
